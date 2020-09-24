@@ -2,65 +2,142 @@
 <html>
 <head>
 <style>
- body {
-  background-image: url("slika7.jpg");
-  color: white;
-  font-family: arial;
+
+table {
+  border-collapse: collapse;
+  
 }
+
+table, td, th {
+  border: 3px solid black;
+  color:black;center;
+  font-family : arial;
+}
+
+body {
+
+  background-image:url("https://i.redd.it/dswxz8toood51.png");
+  
+}
+div {
+  border: 5px solid black;
+  background-color: #3477e2;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  color: white;
+  opacity: 0.9;
+   
+}
+.centerslika {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  
+}
+
+.center {
+  text-align: left;
+  color: black;
+   font-family: Arial;
+}
+.ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:red;
+}
+
+.liedit {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #893591;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.centerslika {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.lista {
+color: white;
+background-color: transparent;
+font-family:arial;
+text-align: left;
+font-size:20px;
+
+
+}
+
+
 </style>
 </head>
 <body>
+<ul class=ul1>
+  <li class=liedit><a href="tomislav1.html">Osnovno</a></li>
+  <li class="dropdown" >
+    <a href="tomislav2.html" class="dropbtn">Diskografija</a>
+	<li class="dropdown">
+     <a href="tomislav3.html" class="dropbtn">Kviz </a>
+    
+     
+    </div>
+  </li>
+</ul>
 
-<form action="http://localhost/Tomislav4.php" method="get">
-  Ime:<br>
-  <input type="text" name="firstname">
-  <br>
 
- 
 
- 
-<br>
- 
- 
+
+<h1  class="center">Postignuća i uspjesi</h1>
+
+<ul class=lista >
+  <li class=lista>21 Grammy nagrada i 69 nominacija</li>
   
-<h1>5 PITANJA</h1>
-  <p>1.Koje godine je Kanye West rođen?</p>
-  <input type="radio" name="1" value="1977" checked> 1977<br>
-<input type="radio" name="1" value="1901" checked> 1901<br>
-<input type="radio" name="1" value="1998" checked> 1998<br>
-<input type="radio" name="1" value="2002" checked> 2002<br>
-<input type="radio" name="1" value="2012" checked>2012 <br>
+  <li >Osnovao Yeezy marku obuće i odjeće</li>
+  <li>Aktivno sudjeluje u </li>
+</ul > 
 
-<br>
-<p>2.Koje je puno ime Kanye Westa?</p>
-  <input type="radio" name="2" value="Kanye Omari West" checked> Kanye Omari West<br>
-<input type="radio" name="2" value="Kanye Damir West" checked> Kanye Damir West<br>
-<input type="radio" name="2" value="Kanye Kanye West" checked> Kanye Kanye West<br>
-<input type="radio" name="2" value="Kanye John West" checked> Kanye John West<br>
-<input type="radio" name="2" value="Kanye Cudi West<" checked> Kanye Cudi West<br>
-<br>
-<p>3.Koje godine je Kanye West započeo svoju glazbenu karijeru?</p>
-  <input type="radio" name="3" value="1996" checked> 1996<br>
-<input type="radio" name="3" value="2000" checked> 2000<br>
-<input type="radio" name="3" value="1978" checked> 1978<br>
-<input type="radio" name="3" value="1345" checked> 1345<br>
-<input type="radio" name="3" value="543" checked> 543<br>
-<br>
-<p>4.Odaberi uljeze</p>
-  <input type="checkbox" name="4" value="Jesus Is King" checked>Jesus Is King<br>
-<input type="checkbox" name="4" value="Graduation" checked> Graduation<br>
-<input type="checkbox" name="4" value="Hitovi ljeta 2012." checked>Hitovi ljeta 2012.<br>
-<input type="checkbox" name="4" value="Ye" checked> Ye<br>
-<input type="checkbox" name="4" value="Kafanski boemi 4" checked> Kafanski boemi 4<br>
-<p>5.Kako se zove Kanyeova supruga?</p>
-  <input type="radio" name="5" value="Neda Ukraden" checked>Neda Ukraden<br>
-<input type="radio" name="5" value="Kim Kardashian" checked> Kim Kardashian<br>
-<input type="radio" name="5" value="Tanja Savić" checked> Tanja Savić<br>
-<input type="radio" name="5" value="Margot Robbie" checked> Margot Robbie<br>
-<input type="radio" name="5" value="Jennifer Lopez" checked> Jennifer Lopez<br>
+  
 
-
-<input type="submit" value="Pošalji">
-</form>
 </body>
-</html>
